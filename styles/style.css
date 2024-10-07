@@ -43,6 +43,8 @@ li:first-child {
 
 .buttHeader {
     background: url(../images/cover.jpg);
+    background-color:#4b30307d;
+    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
