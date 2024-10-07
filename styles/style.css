@@ -1,46 +1,48 @@
 /* место для вашего кода */
-body{
+body {
     font-size: 20px;
 }
-header{
+header {
 font-size: 18px;
 
 }
-h2{
+h2 {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.upHeader{
+.upHeader {
     padding: 95px 51px;
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
-a{
+a {
     text-decoration: none;
 }
-li{
+li {
  list-style-type: circle;
  text-decoration:underline;
 }
-li:first-child{
+li:first-child {
     list-style: none;
     text-decoration: none;
 }
-.list_menu{
+.list_menu {
     width: 390px;
     display: flex;
     justify-content:space-between;
 }
-.logo{
+.logo {
     width: 129px;
 }
-.adress{
+
+.adress {
     width: 200px;  
 }
-.buttHeader{
+
+.buttHeader {
     background: url(../images/cover.jpg);
     display: flex;
     flex-direction: column;
@@ -49,7 +51,7 @@ li:first-child{
     height: 757px;
     color: #fff;
 }
-.nameSite{
+.nameSite {
     
     font-size: 100px;
     width: 1000px;
@@ -58,13 +60,13 @@ li:first-child{
     justify-content: space-around;
     margin: auto;
 }
-.nameSite_center{
+.nameSite_center {
     text-align: center;
 }
-.nameSite_right{
+.nameSite_right {
     text-align: right;
 }
-.butBut{
+.butBut {
     display: flex; 
     justify-content: space-around; 
     align-items: center;
@@ -73,7 +75,7 @@ li:first-child{
     margin-bottom: 55px;
     word-spacing: 1.1em;
 }
-.butBut button{
+.butBut button {
     background: none;
     border: #fff solid 1px;
     padding: 10px;
@@ -82,14 +84,14 @@ li:first-child{
     text-transform: uppercase;
 }
 
-.lots{
+.lots {
     margin-top: 190px;
 }
-.lots_item{
+.lots_item {
     display: flex;
     justify-content: space-between;
 }
-.lots_item div{
+.lots_item div {
     width: 334px;
     height: 563px;
     display: flex;
@@ -104,73 +106,73 @@ li:first-child{
     
 }
 
-.first_item{
+.first_item {
     background: url(../images/card-lot-01.jpg);
     
 
 }
-.second_item{
+.second_item {
     background: url(../images/card-lot-02.jpg);
 
 }
-.third_item{
+.third_item {
     background: url(../images/card-lot-03.jpg);
 }
-.lots_item h3{
+.lots_item h3 {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: underline;
     color: #fff;
 }
-.lots_item p{
+.lots_item p {
     color: #fff;
 }
-.more p{
+.more p {
     text-decoration: underline;
     margin: 20px;
 }
-.about{
+.about {
     display: flex;
     justify-content: space-between;
     align-items:start;
     margin-top: 180px;
 }
-.about .logo {
+.about .logo  {
     background: #000;
     width: 240px;
     height: 240px;
     border-radius: 120px;
 }
-.about .logo img{
+.about .logo img {
     width:150px;
     margin: 60px 45px ;
 }
-.about_text h2{
+.about_text h2 {
     margin: 105px 0;
 }
-.about_text p {
+.about_text p  {
     margin: 28px 0;
 }
-.about_text{
+.about_text {
     width: 693px;
 }
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     margin: 190px 0 90px;
 }
-.footer nav{
+.footer nav {
     text-align: center;
 }
-.footer li{
+.footer li {
     
 list-style: none;
 }
-.footer img{
+.footer img {
     width: 48px;
 }
-.soccio ul{
+.soccio ul {
     display: flex;
     justify-content: space-between; 
     flex-direction: row;
