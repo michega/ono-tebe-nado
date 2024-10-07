@@ -47,7 +47,7 @@ li:first-child {
     background-blend-mode: darken;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 1100px;
     height: 757px;
     color: #fff;
@@ -69,7 +69,7 @@ li:first-child {
 }
 .butBut {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
     font-size: 22px;
     text-transform: uppercase;
@@ -175,7 +175,7 @@ list-style: none;
 }
 .soccio ul {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     flex-direction: row;
    width: 240px;
 }
