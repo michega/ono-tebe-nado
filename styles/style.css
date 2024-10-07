@@ -68,7 +68,7 @@ li:first-child {
     text-align: right;
 }
 .butBut {
-    display: flex; 
+    display: flex;
     justify-content: space-around; 
     align-items: center;
     font-size: 22px;
@@ -139,7 +139,7 @@ li:first-child {
     align-items:start;
     margin-top: 180px;
 }
-.about .logo  {
+.about .logo {
     background: #000;
     width: 240px;
     height: 240px;
@@ -152,7 +152,7 @@ li:first-child {
 .about_text h2 {
     margin: 105px 0;
 }
-.about_text p  {
+.about_text p {
     margin: 28px 0;
 }
 .about_text {
