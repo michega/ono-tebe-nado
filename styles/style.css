@@ -7,9 +7,9 @@ font-size: 18px;
 
 }
 h2 {
-    font-size: 40px;
+    font-size: 39px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .upHeader {
@@ -28,6 +28,7 @@ li {
 li:first-child {
     list-style: none;
     text-decoration: none;
+    letter-spacing: 0px;
 }
 .list_menu {
     width: 390px;
@@ -35,11 +36,19 @@ li:first-child {
     justify-content:space-between;
 }
 .logo {
-    width: 129px;
+    width: 135px;
+    margin-left: -150px;
+    margin-top: -3px;
 }
 .adress {
-    width: 200px;
+    width: 205px;
+    margin-right: 33px;
+    line-height: 1.3;
 }
+.adress a{
+    text-decoration:underline;
+}
+
 
 .buttHeader {
     background: url(../images/cover.jpg);
@@ -51,21 +60,29 @@ li:first-child {
     width: 1100px;
     height: 757px;
     color: #fff;
+    text-transform: uppercase;
 }
 .nameSite {
-    
     font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 40px;
+    line-height: 120px;
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
 }
+.nameSite span:first-child{
+    margin-top: 60px;
+}
 .nameSite_center {
     text-align: center;
 }
 .nameSite_right {
     text-align: right;
+    margin-right: -40px;
+    margin-top: -10px;
 }
 .butBut {
     display: flex;
@@ -74,7 +91,11 @@ li:first-child {
     font-size: 22px;
     text-transform: uppercase;
     margin-bottom: 55px;
-    word-spacing: 1.1em;
+    word-spacing: 18px;
+}
+.butBut p {
+    width: 690px;
+    margin-left: 65px;
 }
 .butBut button {
     background: none;
@@ -83,17 +104,28 @@ li:first-child {
     font-size: 22px;
     color: #fff;
     text-transform: uppercase;
+    width: 255px;
+    margin-right: 35px;
 }
 
 .lots {
-    margin-top: 190px;
+    margin-top: 180px;
 }
+.lots h2{
+    margin-left: 64px;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
 .lots_item {
     display: flex;
     justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 1050px;
 }
 .lots_item div {
-    width: 334px;
+    width: 333px;
     height: 563px;
     display: flex;
     flex-direction: column;
@@ -101,59 +133,69 @@ li:first-child {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color:#4b30307d;
+    background-color:#4b30307d;;
     background-blend-mode: darken;
     padding: 40px;
-    
+    padding-top: 55px;
+    padding-bottom: 48px;
 }
 
 .first_item {
     background: url(../images/card-lot-01.jpg);
-    
-
 }
 .second_item {
     background: url(../images/card-lot-02.jpg);
-
 }
 .third_item {
     background: url(../images/card-lot-03.jpg);
 }
 .lots_item h3 {
-    font-size: 22px;
+    font-size: 21px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: underline;
     color: #fff;
+    letter-spacing: 1px;
+    line-height: 125%;
 }
 .lots_item p {
     color: #fff;
 }
 .more p {
     text-decoration: underline;
-    margin: 20px;
+    margin-left: 64px;
+    margin-top: 33px;
 }
 .about {
     display: flex;
     justify-content: space-between;
     align-items:start;
     margin-top: 180px;
+    padding-right: 23px;
 }
 .about .logo {
     background: #000;
     width: 240px;
     height: 240px;
     border-radius: 120px;
+    margin-left: 70px;
+    margin-top: 3px;
 }
 .about .logo img {
     width:150px;
     margin: 60px 45px ;
 }
 .about_text h2 {
-    margin: 105px 0;
+    margin-top: 105px;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
 }
 .about_text p {
-    margin: 28px 0;
+    margin: 23px 0;
+    letter-spacing: .003em;
+}
+.about_text p .min_space{
+    letter-spacing: .001em;
 }
 .about_text {
     width: 693px;
@@ -161,14 +203,22 @@ li:first-child {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 190px 0 90px;
+    margin: 157px 50px 90px;
+}
+.footer .adress{
+    letter-spacing: -1px;
+    line-height: 125%;
 }
 .footer nav {
     text-align: center;
+    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 2px;
+    margin-left: 2px;
 }
 .footer li {
-    
-list-style: none;
+    list-style: none;
 }
 .footer img {
     width: 48px;
@@ -177,5 +227,5 @@ list-style: none;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-   width: 240px;
+    width: 240px;
 }
