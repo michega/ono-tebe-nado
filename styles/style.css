@@ -26,7 +26,7 @@ a {
 }
 
 .listMenu {
-    width: 390px;
+    column-gap:33px;/*390px*/;
     display: flex;
     justify-content: space-between;
 }
@@ -36,21 +36,24 @@ nav li {
     text-decoration: none;
 }
 
-nav li:first-child{
+li:first-child{
     list-style-type: none;
 }
 
-nav li a{
+li a{
     text-decoration: underline;
 }
 
-nav li a.linkActive{
+li a.linkActive{
     text-decoration: none;
 }
 
 .logo {
+    margin-left: -150px;/*при рекомендованных значениях картинка по центру не становиться*/
     width: 135px;
-    margin-left: -150px;
+    background-position: center;
+    background-size: cover;
+    
     margin-top: -3px;
 }
 
@@ -69,14 +72,13 @@ address a {
 }
 
 .buttHeader {
-    background: url(../images/cover.jpg);
-    background-color: #4b30307d;
-    background-blend-mode: darken;
+    background-image: url(../images/cover.jpg);
+    background-color: rgba(0 0 0 / 0.6);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -86,7 +88,7 @@ address a {
     font-weight: bold;
     letter-spacing: 40px;
     line-height: 120px;
-    width: 1000px;
+    width: 1000px;/**/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -127,6 +129,7 @@ address a {
     border: #fff solid 1px;
     padding: 10px;
     font-size: 22px;
+    font-family: Releway, sans-serif;
     color: #fff;
     text-transform: uppercase;
     width: 255px;
@@ -148,36 +151,34 @@ address a {
     justify-content: space-between;
     margin-left: 25px;
     margin-top: 25px;
-    width: 1050px;
+    max-width: 1050px;
 }
 
 .lotsItem article {
     width: 333px;
-    height: 563px;
+    min-height: 563px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #4b30307d;
-    ;
-    background-blend-mode: darken;
+    background-color: rgba(0 0 0 / 0.6);
     padding: 40px;
     padding-top: 55px;
     padding-bottom: 48px;
 }
 
 .aboutFilm {
-    background: url(../images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .aboutBook {
-    background: url(../images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .aboutImg {
-    background: url(../images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lotsItem h3 {
@@ -197,7 +198,7 @@ address a {
 .more p {
     text-decoration: underline;
     margin-left: 64px;
-    margin-top: 33px;
+    margin-top: 26px;
 }
 
 .about {
@@ -214,12 +215,12 @@ address a {
     height: 240px;
     border-radius: 120px;
     margin-left: 70px;
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
-.about .logo img {
-    width: 150px;
-    margin: 60px 45px;
+.about img {
+    width: 149px;
+    margin: 63px 47px;
 }
 
 .aboutText h2 {
@@ -233,12 +234,12 @@ address a {
     letter-spacing: .003em;
 }
 
-.aboutText p .minSpace {
+.aboutText .minSpace {
     letter-spacing: .001em;
 }
 
 .aboutText {
-    width: 693px;
+    max-width: 693px;
 }
 
 .footer {
