@@ -66,8 +66,9 @@ address a {
 .buttHeader {
     background-image: url(../images/cover.jpg);
     background-color: rgba(0 0 0 / 0.6);
+    background-blend-mode:darken;
     background-position: center;
-    box-sizing: cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -160,6 +161,7 @@ address a {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0 0 0 / 0.6);
+    background-blend-mode:darken;
     padding: 39px;
     padding-top: 53px;
     padding-bottom: 48px;
