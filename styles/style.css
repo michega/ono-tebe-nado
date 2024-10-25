@@ -21,14 +21,13 @@ h2 {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 .listMenu {
     column-gap:33px;
     display: flex;
     justify-content: space-between;
+}
+li {
+    list-style-type: none;
 }
 
 nav li {
@@ -38,10 +37,6 @@ nav li {
 
 li:first-child {
     list-style-type: none;
-}
-
-li a {
-    text-decoration: underline;
 }
 
 li a.linkActive {
@@ -132,7 +127,7 @@ address a {
     color: #fff;
     text-transform: uppercase;
     width: 255px;
-    margin-right: 35px;
+    margin-right: 38px;
 }
 
 .lots {
@@ -152,7 +147,9 @@ address a {
     margin-top: 25px;
     max-width: 1050px;
 }
-
+.lotsItem a {
+    text-decoration: none;
+}
 .lotsItem article {
     width: 333px;
     min-height: 563px;
@@ -163,8 +160,8 @@ address a {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0 0 0 / 0.6);
-    padding: 40px;
-    padding-top: 55px;
+    padding: 39px;
+    padding-top: 53px;
     padding-bottom: 48px;
 }
 
@@ -186,7 +183,7 @@ address a {
     font-weight: bold;
     text-decoration: underline;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: .03em;
     line-height: 125%;
 }
 
@@ -195,9 +192,8 @@ address a {
 }
 
 .more p {
-    text-decoration: underline;
     margin-left: 64px;
-    margin-top: 26px;
+    margin-top: 32px;
 }
 
 .about {
@@ -223,13 +219,13 @@ address a {
 }
 
 .aboutText h2 {
-    margin-top: 105px;
+    margin-top: 103px;
     margin-bottom: 100px;
-    letter-spacing: 1px;
+    letter-spacing: 0.01em;
 }
 
 .aboutText p {
-    margin: 23px 0;
+    margin: 29px 0;
     letter-spacing: .003em;
 }
 
@@ -244,7 +240,7 @@ address a {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 157px 50px 90px;
+    margin: 155px 50px 90px;
 }
 
 .footer address {
