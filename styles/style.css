@@ -47,7 +47,7 @@ li a.linkActive {
     margin-left: -150px;/*при рекомендованных значениях картинка по центру не становиться*/
     width: 135px;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     margin-top: -3px;
 }
 
@@ -81,12 +81,11 @@ address a {
     font-size: 95px;
     font-weight: bold;
     letter-spacing: 40px;
-    line-height: 120px;
+    line-height: 1.35;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     padding: 100px 55px;
-    line-height: 1.35;
 }
 
 .nameSite span:first-child {
@@ -193,7 +192,7 @@ address a {
     color: #fff;
 }
 
-.more{
+.more {
     margin-left: 64px;
     margin-top: 32px;
 }
@@ -271,6 +270,6 @@ address a {
 .soccio {
     display: flex;
     justify-content: space-between;
-    flex-direction:row;   
+    flex-direction:row;
     gap: 48px;
 }
